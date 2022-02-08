@@ -51,3 +51,9 @@ moodle-plugin-ci.phar
 .eslintignore
 .stylelintignore
 /jsdoc
+**/amd/build/*
+moodle-docker/
+local/codechecker
+local/eclass
+/lib/testing/lib.php
+
