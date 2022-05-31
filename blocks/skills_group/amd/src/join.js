@@ -16,7 +16,6 @@
 /**
  * This is the main javascript file that handles a user joining a group.
  *
- * @package    block_skills_group
  * @category   block
  * @copyright  2018 Craig Jamieson
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later

@@ -18,7 +18,6 @@
  *
  * Much of this code is a simpler version of the analytics report plugin.
  *
- * @package    block_skills_group
  * @copyright  2016 Craig Jamieson
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
@@ -247,12 +246,9 @@ function exportToExcel() {
 }
 
 /**
- * The ActivityChart dervies from the basic chart object and requires a
- * customized method to grab the filter data and render the graph.
+ * The base chart object with some common methods.
  *
- * @package    block_skills_group
- * @copyright  2016 Craig Jamieson
- * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ * @param  {object}  outerdiv  the div containing the chart
  */
 var Chart = function(outerdiv) {
 
@@ -395,9 +391,8 @@ Chart.prototype = {
  *       axis 'x1' is used for views/interactions
  *       axis 'y' is the y-axis
  *
- * @package    block_skills_group
- * @copyright  2016 Craig Jamieson
- * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ * @param {object} selector the selector to apply the graph to
+ * @param {object} options  the various options {width, height, margin, title, axistitle}
  */
 var GroupedBarGraph = function(selector, options) {
 
