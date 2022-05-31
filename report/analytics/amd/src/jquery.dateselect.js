@@ -17,7 +17,7 @@
  * A small jQuery plugin to let the user select between a few pre-built
  * date options.
  *
- * @package    report_analytics
+ * @module     report_analytics/DateSelect
  * @copyright  2016 Craig Jamieson
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */

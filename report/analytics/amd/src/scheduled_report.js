@@ -18,7 +18,6 @@
  * it to depend on the report_analytics.js file so that one gets processed
  * first.
  *
- * @package    report_analytics
  * @category   report
  * @copyright  2017 Craig Jamieson
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later

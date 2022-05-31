@@ -17,7 +17,6 @@
  * This is the main javascript file that contains the init loop and a few
  * helper functions.
  *
- * @package    report_analytics
  * @category   report
  * @copyright  2015 Craig Jamieson
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later

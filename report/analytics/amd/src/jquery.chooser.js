@@ -17,7 +17,7 @@
  * The Chooser jquery plugin contains the logic to control events for the
  * graph chooser.
  *
- * @package    report_analytics
+ * @module     report_analytics/Chooser
  * @copyright  2016 Craig Jamieson
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
@@ -99,8 +99,6 @@ define(['local_d3js/d3', 'report_analytics/graph', 'jquery'], function(d3, analy
 
         /**
          * Handle clicks on the options in the select (the various graphs).
-         *
-         * @param  {object}  event  the event that triggered the call
          */
         _selectOption: function() {
             // Find and uncheck all radio buttons and hide help text.

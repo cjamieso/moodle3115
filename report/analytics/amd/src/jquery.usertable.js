@@ -18,7 +18,7 @@
  * funcitonality is included, such as pagination and select/unselect for
  * copying the list to the clipboard.
  *
- * @package    report_analytics
+ * @module     report_analytics/UserTable
  * @copyright  2016 Craig Jamieson
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */

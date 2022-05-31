@@ -20,7 +20,7 @@
  * 2) return their selected data
  * 3) set their data
  *
- * @package    report_analytics
+ * @module     report_analytics/Filter
  * @copyright  2016 Craig Jamieson
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
@@ -471,8 +471,6 @@ define(['jquery', 'jqueryui', 'report_analytics/jquery.multiple.select', 'report
 
     /**
      * Sets the primary filter to use either the student listing or grades.
-     *
-     * @param  {object}  options  options for the filter
      */
     GradeFilter.prototype._setFilter = function() {
 

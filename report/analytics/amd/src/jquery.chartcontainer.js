@@ -22,7 +22,7 @@
  * Allowing for a 2.54641% margin between graphs means that 640px is a
  * good choice.
  *
- * @package    report_analytics
+ * @module     report_analytics/ChartContainer
  * @copyright  2016 Craig Jamieson
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */

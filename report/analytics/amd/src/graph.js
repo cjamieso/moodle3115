@@ -27,7 +27,7 @@ define(['local_d3js/d3', 'local_d3js/d3tip', 'jquery'], function(d3, d3tip) {
      *
      * @return {object}  current object to permit function chaining
      *
-     * @package    report_analytics
+     * @module     report_analytics/Axis
      * @copyright  2016 Craig Jamieson
      * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
      */
@@ -206,7 +206,7 @@ define(['local_d3js/d3', 'local_d3js/d3tip', 'jquery'], function(d3, d3tip) {
      *
      * @return {object}  current object to permit function chaining
      *
-     * @package    report_analytics
+     * @module     report_analytics/Legend
      * @copyright  2016 Craig Jamieson
      * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
      */
@@ -214,7 +214,7 @@ define(['local_d3js/d3', 'local_d3js/d3tip', 'jquery'], function(d3, d3tip) {
 
         /** @property {number}  the height of the graph */
         var height = 0;
-        /** @property  {object}  d3.scale object containing color information */
+        /** @property  {object}  the d3.scale object containing color information */
         var color = null;
         /** @property {number}  the horizontal indent ot use for the graph */
         var indent = 0;
@@ -385,7 +385,7 @@ define(['local_d3js/d3', 'local_d3js/d3tip', 'jquery'], function(d3, d3tip) {
      *
      * @return {object}  current object to permit function chaining
      *
-     * @package    report_analytics
+     * @module     report_analytics/Title
      * @copyright  2016 Craig Jamieson
      * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
      */
@@ -436,7 +436,7 @@ define(['local_d3js/d3', 'local_d3js/d3tip', 'jquery'], function(d3, d3tip) {
      *
      * @return {object}  current object to permit function chaining
      *
-     * @package    report_analytics
+     * @module     report_analytics/GroupedBarGraph
      * @copyright  2016 Craig Jamieson
      * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
      */
@@ -446,7 +446,7 @@ define(['local_d3js/d3', 'local_d3js/d3tip', 'jquery'], function(d3, d3tip) {
         var options = {width: 0, height: 0, margin: {top: 40, right: 160, bottom: 100, left: 60}, title: ''};
         /** @property {array}   a list of legend entries that should have help tooltips added to them (no longer added) */
         var helpTooltips = [];
-        /** @property {object}  d3.scale object containing color information */
+        /** @property {object}  the d3.scale object containing color information */
         var _color = null;
         /** @property {object}  the various scales used by the graph (see above) */
         var _scale = null;
@@ -757,7 +757,7 @@ define(['local_d3js/d3', 'local_d3js/d3tip', 'jquery'], function(d3, d3tip) {
      *
      * @return {object}  current object to permit function chaining
      *
-     * @package    report_analytics
+     * @module     report_analytics/SeriesGraph
      * @copyright  2016 Craig Jamieson
      * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
      */
@@ -765,7 +765,7 @@ define(['local_d3js/d3', 'local_d3js/d3tip', 'jquery'], function(d3, d3tip) {
 
         /** @property {object}  axis options {width, height, margin, title} */
         var options = {width: 0, height: 0, margin: {top: 40, right: 160, bottom: 100, left: 60}, title: ''};
-        /** @property  {object}  d3.scale object containing color information */
+        /** @property  {object}  the d3.scale object containing color information */
         var _color = null;
         /** @property  {object}  the various scales used by the graph (see above) */
         var _scale = null;
@@ -1103,7 +1103,7 @@ define(['local_d3js/d3', 'local_d3js/d3tip', 'jquery'], function(d3, d3tip) {
      *
      * @return {object}  current object to permit function chaining
      *
-     * @package    report_analytics
+     * @module     report_analytics/QuadrantGraph
      * @copyright  2017 Craig Jamieson
      * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
      */
@@ -1405,7 +1405,7 @@ define(['local_d3js/d3', 'local_d3js/d3tip', 'jquery'], function(d3, d3tip) {
      *
      * @return {object}  current object to permit function chaining
      *
-     * @package    report_analytics
+     * @module     report_analytics/Spinner
      * @copyright  2016 Craig Jamieson
      * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
      */

@@ -17,7 +17,7 @@
  * This file contains the various "charts" that are used in the project.  They are
  * added to a namespace "Charts".
  *
- * @package    report_analytics
+ * @module     report_analytics/Chart
  * @copyright  2015 Craig Jamieson
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
@@ -86,7 +86,7 @@ define(['local_d3js/d3', 'jquery', 'local_d3js/d3.layout.cloud', 'report_analyti
     /**
      * The base chart object with some common methods.
      *
-     * @param  {object} outerdiv       the div element containing the graph
+     * @param  {object} outerdiv       the div` element containing the graph
      * @param  {object} filteroptions  options used when creating filters
      */
     var Chart = function(outerdiv, filteroptions) {
@@ -744,7 +744,7 @@ define(['local_d3js/d3', 'jquery', 'local_d3js/d3.layout.cloud', 'report_analyti
      * @param  {object} outerdiv       the div element containing the graph
      * @param  {object} filteroptions  options used when creating filters
      *
-     * @package    report_analytics
+     * @module     report_analytics/ScheduledCriteriaChart
      * @copyright  2017 Craig Jamieson
      * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
      */
@@ -763,7 +763,7 @@ define(['local_d3js/d3', 'jquery', 'local_d3js/d3.layout.cloud', 'report_analyti
      * @param  {object} outerdiv       the div element containing the graph
      * @param  {object} filteroptions  options used when creating filters
      *
-     * @package    report_analytics
+     * @module     report_analytics/GradeChart
      * @copyright  2017 Craig Jamieson
      * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
      */
